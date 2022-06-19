@@ -34,3 +34,17 @@ end
 Enable the autoloading of the support directory by uncommenting the following line in your spec/rails_helper.rb:
 
 Dir[Rails.root.join('spec/support/**/*.rb')].each { |f| require f }
+
+add these gems as well 
+
+group :test do
+  gem 'database_cleaner'
+  gem 'factory_bot_rails'
+  gem 'faker'
+  gem 'shoulda-matchers'
+end
+
+gem 'rspec-rails'
+
+gem 'net-smtp'
+
