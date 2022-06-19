@@ -48,3 +48,10 @@ gem 'rspec-rails'
 
 gem 'net-smtp'
 
+for a complete graphql testing suite with types involved, use this
+
+gem 'rspec-graphql_matchers'
+
+add gem 'graphql'
+
+In order to see users of a motorcycle we have to add in the field :user, Types::UserType, null: false. If not the user_id will not be shown.
