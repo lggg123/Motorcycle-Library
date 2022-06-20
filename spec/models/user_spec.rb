@@ -1,6 +1,20 @@
-require 'rails_helper'
-
 RSpec.describe User, type: :model do
+  describe "Factory For Model" do
+    it 'has a valid factory' do
+      expect(build(:user)).to be_valid
+    end
+  end
+
+  let(:attributes) do
+    {
+      first_name: 'Joshua',
+      last_name: 'Smither',
+      email: 'joshsmither@gmail.com',
+    }
+  end
+
+  let(:user) { create(:user, **attributes )}
+
   describe "Associations" do
     it { should have_many(:motorcycles) }
   end
