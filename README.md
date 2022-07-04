@@ -82,6 +82,39 @@ also checkout graphql_helper.rb on spec and see how it was made to create querie
 
 make sure to not make you query types file plural. I made the mistake of making motorcycle_query_types.rb instead of motorcycle_query_type.rb and the rspec test wasnt working properly. Now it is.
 
+# to generate proper query tests
+
+We will use `gem 'graphlient'` to be able to properly write tests for our motorcycle and user query. This is why this error occured previously. Failure/Error: include_context 'GraphQL Client'
+
+# to configure graphlient
+
+#spec/support/graphql/client.rb.
+require 'graphlient'
+
+RSpec.shared_context "GraphQL Client", shared_context: :metadata do
+  let(:client) do
+    Graphlient::Client.new('https://api.example.org/graphql') do |client|
+      client.http do |h|
+        h.connection do |c|
+          c.adapter Faraday::Adapter::Rack, app
+        end
+      end
+    end
+  end
+end
+
+#spec/graphql/schema_spec.rb.
+
+require 'rails_helper'
+
+describe 'GraphQL Schema', type: 'request' do
+  include_context 'GraphQL Client'
+
+  it 'retrieves schema' do
+    expect(client.schema).to be_a GraphQL::Schema
+  end
+end
+
 # To Setup React
 
 yarn add apollo-client apollo-cache-inmemory apollo-link-http apollo-link-error apollo-link graphql graphql-tag react-apollo
