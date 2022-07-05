@@ -1,0 +1,551 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/georgelugo/Desktop/rails_apps/motorcycle-library/spec/support/factory_bot.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/georgelugo/Desktop/rails_apps/motorcycle-library/spec/support/graphql/client.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/georgelugo/Desktop/rails_apps/motorcycle-library/spec/graphql/queries/motorcycle_query_spec.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          2,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          2,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/georgelugo/Desktop/rails_apps/motorcycle-library/spec/graphql/schema_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/georgelugo/Desktop/rails_apps/motorcycle-library/spec/graphql/types/motorcycle_type_spec.rb": {
+        "lines": [
+          1,
+          6,
+          null,
+          1,
+          null,
+          2,
+          2,
+          2,
+          2,
+          2,
+          null
+        ]
+      },
+      "/Users/georgelugo/Desktop/rails_apps/motorcycle-library/app/graphql/types/motorcycle_type.rb": {
+        "lines": [
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/georgelugo/Desktop/rails_apps/motorcycle-library/app/graphql/types/base_object.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/georgelugo/Desktop/rails_apps/motorcycle-library/app/graphql/types/base_edge.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/georgelugo/Desktop/rails_apps/motorcycle-library/app/graphql/types/base_connection.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/georgelugo/Desktop/rails_apps/motorcycle-library/app/graphql/types/base_field.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/georgelugo/Desktop/rails_apps/motorcycle-library/app/graphql/types/base_argument.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/georgelugo/Desktop/rails_apps/motorcycle-library/app/graphql/types/user_type.rb": {
+        "lines": [
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/georgelugo/Desktop/rails_apps/motorcycle-library/spec/graphql/types/user_type_spec.rb": {
+        "lines": [
+          1,
+          4,
+          null,
+          1,
+          null,
+          2,
+          2,
+          2,
+          null
+        ]
+      },
+      "/Users/georgelugo/Desktop/rails_apps/motorcycle-library/spec/models/motorcycle_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          3,
+          1,
+          null,
+          2,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          3,
+          1,
+          2,
+          null,
+          null,
+          1,
+          2,
+          2,
+          2,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/georgelugo/Desktop/rails_apps/motorcycle-library/app/models/motorcycle.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/georgelugo/Desktop/rails_apps/motorcycle-library/app/models/application_record.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/georgelugo/Desktop/rails_apps/motorcycle-library/spec/models/user_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          null,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          2,
+          null,
+          null,
+          1,
+          null,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/georgelugo/Desktop/rails_apps/motorcycle-library/app/models/user.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null
+        ]
+      },
+      "/Users/georgelugo/Desktop/rails_apps/motorcycle-library/app/controllers/graphql_controller.rb": {
+        "lines": [
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          3,
+          3,
+          3,
+          3,
+          null,
+          null,
+          null,
+          3,
+          3,
+          null,
+          0,
+          0,
+          null,
+          null,
+          1,
+          null,
+          null,
+          1,
+          3,
+          null,
+          0,
+          0,
+          null,
+          0,
+          null,
+          null,
+          0,
+          null,
+          3,
+          null,
+          0,
+          null,
+          0,
+          null,
+          null,
+          null,
+          1,
+          0,
+          0,
+          null,
+          0,
+          null,
+          null
+        ]
+      },
+      "/Users/georgelugo/Desktop/rails_apps/motorcycle-library/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/georgelugo/Desktop/rails_apps/motorcycle-library/app/graphql/motorcycle_library_schema.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          0,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          0,
+          null,
+          0,
+          0,
+          null,
+          0,
+          null,
+          0,
+          0,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          0,
+          null,
+          0,
+          null,
+          0,
+          0,
+          null,
+          null
+        ]
+      },
+      "/Users/georgelugo/Desktop/rails_apps/motorcycle-library/app/graphql/types/mutation_type.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          0,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/georgelugo/Desktop/rails_apps/motorcycle-library/app/graphql/mutations/create_motorcycle_mutation.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/georgelugo/Desktop/rails_apps/motorcycle-library/app/graphql/mutations/base_mutation.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/georgelugo/Desktop/rails_apps/motorcycle-library/app/graphql/types/base_input_object.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/georgelugo/Desktop/rails_apps/motorcycle-library/app/graphql/types/query_type.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    "timestamp": 1656985549
+  }
+}
