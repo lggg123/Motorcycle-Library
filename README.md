@@ -86,6 +86,33 @@ make sure to not make you query types file plural. I made the mistake of making 
 
 We will use `gem 'graphlient'` to be able to properly write tests for our motorcycle and user query. This is why this error occured previously. Failure/Error: include_context 'GraphQL Client'
 
+# tooling for graphql and some more configuration.
+
+Add a Rake task to dump the project’s schema to lib/tasks/graphql/schema.rake.
+
+namespace :graphql do
+  namespace :schema do
+    directory 'data'
+    desc 'Dump GraphQL API schema to data/schema.graphql.'
+    task dump: [:environment, 'data'] do
+      File.open('data/schema.graphql', 'w') do |f|
+        f.write(Schema.to_definition)
+        puts "Dumped schema to #{f.path}."
+      end
+    end
+  end
+end
+
+In order to add the schema we have to create the file app/graphql/schema.rb
+
+class MySchema < GraphQL::Schema
+  # Required:
+  query Types::Query
+  # Optional:
+  mutation Types::Mutation
+  subscription Types::Subscription
+end
+
 # to configure graphlient
 
 #spec/support/graphql/client.rb.
